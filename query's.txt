@@ -1,0 +1,13 @@
+CREATE TABLE alumnos(
+	id int AUTO_INCREMENT not null,
+    dni int not null,
+    Nombres varchar(100) not null,
+	Apellidos varchar(100) not null,
+    PRIMARY KEY(id)
+)
+
+INSERT INTO alumnos (dni, Nombres, Apellidos) VALUES (40634409, 'Vladimir', 'Gutierrez')
+INSERT INTO alumnos (dni, Nombres, Apellidos) VALUES (31231233, 'Andre', 'Lopez')
+INSERT INTO alumnos (dni, Nombres, Apellidos) VALUES (23452353, 'Abigail', 'Lopez')
+INSERT INTO alumnos (dni, Nombres, Apellidos) VALUES (23423444, 'Dominique', 'Pintos')
+INSERT INTO alumnos (dni, Nombres, Apellidos) VALUES (34234122, 'Bastian', 'Me olvide')
